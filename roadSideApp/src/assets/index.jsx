@@ -9,8 +9,9 @@ import Chinesemeal  from './images/chinesemeal.jpg'
 import Friedrice  from './images/friedrice.jpg'
 import Plantain  from './images/plantainDish.jpg'
 import BreakFast  from './images/breakfast.jpg'
+import Happyface  from './images/happy.jpg'
 
-
+import EmptyBox from './images/box_14309209.png'
 
 
 
@@ -27,6 +28,8 @@ export {
     Chinesemeal,
     Burger,
     BreakFast,
-    Plantain
+    Plantain, 
+    Happyface,
+    EmptyBox
 
 }

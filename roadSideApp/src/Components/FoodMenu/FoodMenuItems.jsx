@@ -18,17 +18,15 @@ const FoodMenuItems = ({
       <div className="food__img__content">
         <div className="food__title__row">
           <h4>{foodName}</h4>
-          <span><FaShareAlt 
-          role="button"
-          className="share__icon"
-          /></span>
+          <span>
+            <FaShareAlt role="button" className="share__icon" />
+          </span>
         </div>
         <div className="food__description">
           <p>{foodDesc}</p>
         </div>
         <div className="food__pricing__rating">
-          <p>
-            {" "}
+          <p className="food__price">
             $<span>{foodPrice} </span>
           </p>
 
@@ -36,15 +34,6 @@ const FoodMenuItems = ({
             <span>5.0</span> Reviews
           </p>
         </div>
-
-        <button
-          type="submit"
-          onClick={() => {
-            console.log(foodPrice);
-          }}
-        >
-          Add cart
-        </button>
       </div>
     </>
   );

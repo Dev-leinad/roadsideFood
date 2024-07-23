@@ -1,6 +1,6 @@
 
-import eate from '../assets/images/eate.jpg'
-import RatingFeedback from './RatingFeedback'
+import eate from '../../assets/images/eate.jpg'
+import RatingFeedback from '../../Components/RatingFeedback'
 function HeroSection() {
   return (
    <section className='hero__section' >

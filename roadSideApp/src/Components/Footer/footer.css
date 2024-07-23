@@ -1,0 +1,75 @@
+.footer__section{
+    position: relative;
+    width: 100%;
+    min-height:400px;
+    padding: 6rem 6.4em;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    background-color: #202122;
+    color:#fff;
+}
+
+.footer__section .company__logo__footer{
+    width: 350px;
+}
+.footer__section .company__logo__footer .footer__logo {
+    padding-bottom:6px;
+    margin-bottom:10px;
+
+}
+.footer__section .company__logo__footer .footer__logo a {
+    font-size:20px;
+}
+
+.footer__section .company__logo__footer   p{
+        font-size:16px;
+        letter-spacing:1.2;
+        margin-bottom:16px;
+        
+}
+
+.footer__section .company__logo__footer .footer__social__links ul {
+    display:inline-flex;
+    margin:0;
+    padding:0;
+}
+
+.footer__section .company__logo__footer .footer__social__links ul li{   
+    margin-right:8px;
+    padding-right:4px;
+}
+.footer__section .company__logo__footer .footer__social__links ul li a{
+     color: #f14947;
+     font-size: 20px;
+}
+.footer__section .footer__links{
+    display: flex;
+    width:350px ;
+    justify-content: space-between;
+}
+.footer__section .footer__links .footer__about h4{
+    font-size: 20px;
+    padding: 4px;
+    margin-bottom: 12px;
+}
+.footer__section  .footer__subscribe__form{
+    align-self: center;
+}
+
+.footer__section  .footer__subscribe__form form {
+    display: block;
+    float: left;
+    width: 250px;
+}
+
+.footer__section .footer__subscribe__form form input{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    border: none;
+    text-transform: capitalize;
+    border-radius: 6px;
+    margin-top: 6px;
+}

@@ -1,0 +1,82 @@
+section.customer__review__section {
+    width: 100%;
+    height: 500px;
+    background-color: #fff;
+    padding: 3em 8.5em ;
+    position: relative;
+    margin-bottom: 20px;
+    align-self: center;
+}
+
+section.customer__review__section .section__heading h3{
+    text-align: center;
+    font-size: 40px;
+    padding: 10px 0;
+    margin-bottom:18px;
+}
+
+.customer__review__section .review__cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 2.2em;
+    
+}
+
+.customer__review__section .review__cards .review__card{
+    width: 350px;
+    height: 220px;
+    border-radius: 10px;
+    background-color: #f14947;
+    padding: 20px;
+    box-shadow: 3px 2px 14px rgba(0, 0, 0, 0.5) ;
+}
+
+
+.customer__review__section .review__cards .review__card .rating__stars{
+    margin-bottom: 10px;
+
+
+}
+
+
+.customer__review__section .review__cards .review__card .review__feedback{
+    margin-bottom: 20px;
+
+}
+.customer__review__section .review__cards .review__card .review__feedback p{
+    font-size: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 8px 0;
+    text-align: justify;
+}
+
+.customer__review__section .review__cards .review__card .customer__user{
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    margin-top: 10px;
+}
+
+.customer__review__section .review__cards .review__card .customer__user .user__profile  {
+    width: 35px;
+    height: 35px;
+    position: relative;
+    border-radius: 50px;
+    border: 1px solid #fff;
+}
+.customer__review__section .review__cards .review__card .customer__user .user__profile img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    object-fit: cover;
+}
+
+.customer__review__section .review__cards .review__card .customer__user .user__details p{
+    font-size: 14px;
+
+}
